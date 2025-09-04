@@ -11,7 +11,12 @@ function App() {
         <Center>
           <img width="128" height="128" src="logo.svg" alt="The Commission" />
         </Center>
-        <Tabs.Root lazyMount unmountOnExit defaultValue="clasification">
+        <Tabs.Root
+          lazyMount
+          unmountOnExit
+          defaultValue="clasification"
+          size="sm"
+        >
           <Center>
             <Tabs.List>
               <Tabs.Trigger value="clasification">Clasificación</Tabs.Trigger>
