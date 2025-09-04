@@ -74,13 +74,20 @@ export default function Attendance() {
     return <div>Error: {error}</div>
   }
 
+  const getCheckedPlayersCount = (team: (typeof TEAMS)[0]) => {
+    return team.players.filter((player) => attendance[getPlayerKey(player)])
+      .length
+  }
+
   return (
     <Grid templateColumns={{ base: '1fr', md: 'repeat(4, 1fr)' }} gap="4">
       {TEAMS.map((team) => (
         <GridItem key={team.label}>
           <Card.Root>
             <Card.Header>
-              <Heading color={team.color}>{team.label}</Heading>
+              <Heading color={team.color}>
+                {team.label} ({getCheckedPlayersCount(team)} jugadores)
+              </Heading>
             </Card.Header>
             <Card.Body>
               <Stack align="flex-start" gap="3">
