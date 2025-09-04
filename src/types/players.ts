@@ -36,7 +36,7 @@ export enum Player {
   JAVI_CIA = 'Javi Cía',
   NACHO_ROUCO = 'Nacho Rouco',
   CURRO_MUÑIZ = 'Curro Muñiz',
-  NICO_VARO = 'Nicolás Varo',
+  NICO_HOSTALET = 'Nico Hostalet',
   JOSE_ANTONIO_MERA = 'José Antonio Mera',
   ISABELO = 'Isabelo',
   BARBERA = 'Barbera',

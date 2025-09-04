@@ -58,7 +58,7 @@ export const TEAMS: TeamConfig[] = [
       Player.EZEQUIEL,
       Player.JOSE_RAMON,
       Player.RAFAEL_FM,
-      Player.NICO_VARO,
+      Player.NICO_HOSTALET,
       Player.CURRO_MUÑIZ,
     ],
   },
