@@ -1,4 +1,5 @@
 import { Match } from '../types/league'
+import { Player } from '../types/players'
 import { Team } from '../types/teams'
 
 export const MATCHES: Match[] = [
@@ -7,22 +8,59 @@ export const MATCHES: Match[] = [
     matchDay: 1,
     date: '2025-09-08',
     time: '21:00',
-    played: false,
+    played: true,
     homeTeam: Team.RED,
     awayTeam: Team.BLUE,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.JAVI_CIA,
+      },
+      {
+        scorer: Player.JAVI_CIA,
+      },
+      {
+        scorer: Player.CURRO_FM,
+      },
+      {
+        scorer: Player.ANGEL_AGUADO,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.ALFONSO_OLLERO,
+      },
+    ],
   },
   {
     id: 'match2',
     matchDay: 1,
     date: '2025-09-08',
     time: '22:00',
-    played: false,
+    played: true,
     homeTeam: Team.WHITE,
     awayTeam: Team.GREEN,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.ALBERTO_MARCA,
+      },
+      {
+        scorer: Player.ALBERTO_MARCA,
+      },
+      {
+        scorer: Player.PACO_ACEDO,
+      },
+      {
+        scorer: Player.PACO_ACEDO,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.KALI,
+      },
+    ],
   },
   {
     id: 'match3',
