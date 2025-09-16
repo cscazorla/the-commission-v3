@@ -67,22 +67,77 @@ export const MATCHES: Match[] = [
     matchDay: 2,
     date: '2025-09-15',
     time: '21:00',
-    played: false,
+    played: true,
     homeTeam: Team.GREEN,
     awayTeam: Team.RED,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.LUIS_CABEZA,
+      },
+      {
+        scorer: Player.LUIS_CABEZA,
+      },
+      {
+        scorer: Player.LUIS_CABEZA,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.JOSE_LUIS_FERNANDEZ,
+      },
+      {
+        scorer: Player.JOSE_LUIS_FERNANDEZ,
+      },
+      {
+        scorer: Player.ANGEL_AGUADO,
+      },
+      {
+        scorer: Player.ANGEL_AGUADO,
+      },
+      {
+        scorer: Player.PEDRO_RODRIGUEZ,
+      },
+      {
+        scorer: Player.CURRO_FM,
+      },
+    ],
   },
   {
     id: 'match4',
     matchDay: 2,
     date: '2025-09-15',
     time: '22:00',
-    played: false,
+    played: true,
     homeTeam: Team.BLUE,
     awayTeam: Team.WHITE,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.PEPE,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.BARBERA,
+      },
+      {
+        scorer: Player.PACO_ACEDO,
+      },
+      {
+        scorer: Player.ALBERTO_MARCA,
+      },
+    ],
   },
   {
     id: 'match5',
