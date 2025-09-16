@@ -19,7 +19,7 @@ export const MATCHES: Match[] = [
         scorer: Player.JAVI_CIA,
       },
       {
-        scorer: Player.CURRO_FM,
+        scorer: Player.PEDRO_RODRIGUEZ,
       },
       {
         scorer: Player.ANGEL_AGUADO,
