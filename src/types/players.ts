@@ -38,7 +38,7 @@ export enum Player {
   CURRO_MUÑIZ = 'Curro Muñiz',
   NICO_HOSTALET = 'Nico Hostalet',
   JOSE_ANTONIO_MERA = 'José Antonio Mera',
-  ISABELO = 'Isabelo',
-  BARBERA = 'Barbera',
+  ISABELO = 'Isabelo Rodríguez',
+  BARBERA = 'Juan AntonioBarberá',
   PACO_ACEDO = 'Paco Acedo',
 }
