@@ -39,6 +39,6 @@ export enum Player {
   NICO_HOSTALET = 'Nico Hostalet',
   JOSE_ANTONIO_MERA = 'José Antonio Mera',
   ISABELO = 'Isabelo Rodríguez',
-  BARBERA = 'Juan AntonioBarberá',
+  BARBERA = 'Juan Antonio Barberá',
   PACO_ACEDO = 'Paco Acedo',
 }
