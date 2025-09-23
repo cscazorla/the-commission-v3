@@ -1,4 +1,5 @@
 import { MATCHES } from '@/data/matches'
+import { TEAMS } from '@/types/teams'
 import { Table } from '@chakra-ui/react'
 import { calculateTeamStats } from '../utils/standings'
 
@@ -22,7 +23,11 @@ export default function StandingsTable() {
       <Table.Body>
         {standings.map((team) => (
           <Table.Row key={team.teamId}>
-            <Table.Cell>{team.teamId}</Table.Cell>
+            <Table.Cell
+              color={TEAMS.find((t) => t.label === team.teamId)?.color}
+            >
+              {team.teamId}
+            </Table.Cell>
             <Table.Cell>{team.points}</Table.Cell>
             <Table.Cell>{team.played}</Table.Cell>
             <Table.Cell>{team.won}</Table.Cell>
