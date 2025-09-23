@@ -201,18 +201,12 @@ export const MATCHES: Match[] = [
         scorer: Player.ALVARO_CORNEJO,
       },
       {
-        scorer: Player.ALVARO_CORNEJO,
-      },
-      {
         scorer: Player.CARLOS_SANCHEZ,
       },
     ],
     awayGoals: [
       {
         scorer: Player.RAFA_LOPEZ,
-      },
-      {
-        scorer: Player.PEPE,
       },
       {
         scorer: Player.PEPE,
