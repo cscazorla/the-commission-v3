@@ -144,22 +144,95 @@ export const MATCHES: Match[] = [
     matchDay: 3,
     date: '2025-09-22',
     time: '21:00',
-    played: false,
+    played: true,
     homeTeam: Team.WHITE,
     awayTeam: Team.RED,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.ISABELO,
+      },
+      {
+        scorer: Player.BARBERA,
+      },
+      {
+        scorer: Player.POLI,
+      },
+      {
+        scorer: Player.DANI_NAVARRO,
+      },
+      {
+        scorer: Player.DANI_NAVARRO,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.JOSE_LUIS_FERNANDEZ,
+      },
+      {
+        scorer: Player.JOSE_RAMON,
+      },
+      {
+        scorer: Player.JOSE_RAMON,
+      },
+      {
+        scorer: Player.PEDRO_RODRIGUEZ,
+      },
+    ],
   },
   {
     id: 'match6',
     matchDay: 3,
     date: '2025-09-22',
     time: '22:00',
-    played: false,
+    played: true,
     homeTeam: Team.GREEN,
     awayTeam: Team.BLUE,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.CARLOS_SANCHEZ,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.RAFA_LOPEZ,
+      },
+      {
+        scorer: Player.PEPE,
+      },
+      {
+        scorer: Player.PEPE,
+      },
+      {
+        scorer: Player.PEPE,
+      },
+      {
+        scorer: Player.PEPE,
+      },
+      {
+        scorer: Player.PEPE,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+    ],
   },
   {
     id: 'match7',
