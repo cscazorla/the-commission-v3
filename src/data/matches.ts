@@ -275,12 +275,12 @@ export const MATCHES: Match[] = [
     awayTeam: Team.BLUE,
     homeGoals: [
       {
-        scorer: Player.BORJA_CALZADILLA,
+        scorer: Player.PEDRO_RODRIGUEZ,
       },
     ],
     awayGoals: [
       {
-        scorer: Player.CARLOS_PAJARO,
+        scorer: Player.BORJA_CALZADILLA,
       },
     ],
   },
