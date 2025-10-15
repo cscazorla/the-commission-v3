@@ -357,21 +357,67 @@ export const MATCHES: Match[] = [
     matchDay: 6,
     date: '2025-10-13',
     time: '21:00',
-    played: false,
+    played: true,
     homeTeam: Team.BLUE,
     awayTeam: Team.GREEN,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.JOSE_CIA,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.BORJA_PARIAS,
+      },
+      {
+        scorer: Player.BORJA_PARIAS,
+      },
+      {
+        scorer: Player.BORJA_PARIAS,
+      },
+      {
+        scorer: Player.MIGUEL_LAGUILLO,
+      },
+      {
+        scorer: Player.CARLOS_SANCHEZ,
+      },
+      {
+        scorer: Player.MIGUEL_LAGUILLO,
+      },
+      {
+        scorer: Player.LUIS_CABEZA,
+      },
+      {
+        scorer: Player.LUIS_CABEZA,
+      },
+    ],
   },
   {
     id: 'match12',
     matchDay: 6,
     date: '2025-10-13',
     time: '22:00',
-    played: false,
+    played: true,
     homeTeam: Team.WHITE,
     awayTeam: Team.RED,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.ISABELO,
+      },
+      {
+        scorer: Player.PACO_ACEDO,
+      },
+      {
+        scorer: Player.DANI_NAVARRO,
+      },
+      {
+        scorer: Player.ALBERTO_MARCA,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.JAVI_CIA,
+      },
+    ],
   },
 ]
