@@ -385,7 +385,7 @@ export const MATCHES: Match[] = [
         scorer: Player.BORJA_PARIAS,
       },
       {
-        scorer: Player.BORJA_PARIAS,
+        scorer: Player.CASIMIRO_OLTRA,
       },
       {
         scorer: Player.MIGUEL_LAGUILLO,
