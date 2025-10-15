@@ -364,6 +364,18 @@ export const MATCHES: Match[] = [
       {
         scorer: Player.JOSE_CIA,
       },
+      {
+        scorer: Player.RAFA_LOPEZ,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.HILARIO,
+      },
+      {
+        scorer: Player.ALFONSO_OLLERO,
+      },
     ],
     awayGoals: [
       {
