@@ -1,435 +1,137 @@
 import { Match } from '../types/league'
-import { Player } from '../types/players'
 import { Team } from '../types/teams'
 
 export const MATCHES: Match[] = [
   {
     id: 'match1',
     matchDay: 1,
-    date: '2025-09-08',
+    date: '2025-10-20',
     time: '21:00',
-    played: true,
+    played: false,
     homeTeam: Team.RED,
     awayTeam: Team.BLUE,
-    homeGoals: [
-      {
-        scorer: Player.JAVI_CIA,
-      },
-      {
-        scorer: Player.JAVI_CIA,
-      },
-      {
-        scorer: Player.PEDRO_RODRIGUEZ,
-      },
-      {
-        scorer: Player.ANGEL_AGUADO,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.CARLOS_PAJARO,
-      },
-      {
-        scorer: Player.ALFONSO_OLLERO,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
   {
     id: 'match2',
     matchDay: 1,
-    date: '2025-09-08',
+    date: '2025-10-27',
     time: '22:00',
-    played: true,
+    played: false,
     homeTeam: Team.WHITE,
     awayTeam: Team.GREEN,
-    homeGoals: [
-      {
-        scorer: Player.ALBERTO_MARCA,
-      },
-      {
-        scorer: Player.ALBERTO_MARCA,
-      },
-      {
-        scorer: Player.PACO_ACEDO,
-      },
-      {
-        scorer: Player.PACO_ACEDO,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.KALI,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
   {
     id: 'match3',
     matchDay: 2,
-    date: '2025-09-15',
+    date: '2025-11-03',
     time: '21:00',
-    played: true,
+    played: false,
     homeTeam: Team.GREEN,
     awayTeam: Team.RED,
-    homeGoals: [
-      {
-        scorer: Player.ALVARO_CORNEJO,
-      },
-      {
-        scorer: Player.ALVARO_CORNEJO,
-      },
-      {
-        scorer: Player.ALVARO_CORNEJO,
-      },
-      {
-        scorer: Player.ALVARO_CORNEJO,
-      },
-      {
-        scorer: Player.LUIS_CABEZA,
-      },
-      {
-        scorer: Player.LUIS_CABEZA,
-      },
-      {
-        scorer: Player.LUIS_CABEZA,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.JOSE_LUIS_FERNANDEZ,
-      },
-      {
-        scorer: Player.JOSE_LUIS_FERNANDEZ,
-      },
-      {
-        scorer: Player.ANGEL_AGUADO,
-      },
-      {
-        scorer: Player.ANGEL_AGUADO,
-      },
-      {
-        scorer: Player.PEDRO_RODRIGUEZ,
-      },
-      {
-        scorer: Player.CURRO_FM,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
   {
     id: 'match4',
     matchDay: 2,
-    date: '2025-09-15',
+    date: '2025-11-10',
     time: '22:00',
-    played: true,
+    played: false,
     homeTeam: Team.BLUE,
     awayTeam: Team.WHITE,
-    homeGoals: [
-      {
-        scorer: Player.PEPE,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.BARBERA,
-      },
-      {
-        scorer: Player.PACO_ACEDO,
-      },
-      {
-        scorer: Player.ALBERTO_MARCA,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
   {
     id: 'match5',
     matchDay: 3,
-    date: '2025-09-22',
+    date: '2025-11-17',
     time: '21:00',
-    played: true,
+    played: false,
     homeTeam: Team.WHITE,
     awayTeam: Team.RED,
-    homeGoals: [
-      {
-        scorer: Player.ISABELO,
-      },
-      {
-        scorer: Player.BARBERA,
-      },
-      {
-        scorer: Player.POLI,
-      },
-      {
-        scorer: Player.DANI_NAVARRO,
-      },
-      {
-        scorer: Player.DANI_NAVARRO,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.JOSE_LUIS_FERNANDEZ,
-      },
-      {
-        scorer: Player.JOSE_RAMON,
-      },
-      {
-        scorer: Player.JOSE_RAMON,
-      },
-      {
-        scorer: Player.PEDRO_RODRIGUEZ,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
   {
     id: 'match6',
     matchDay: 3,
-    date: '2025-09-22',
+    date: '2025-11-24',
     time: '22:00',
-    played: true,
+    played: false,
     homeTeam: Team.GREEN,
     awayTeam: Team.BLUE,
-    homeGoals: [
-      {
-        scorer: Player.ALVARO_CORNEJO,
-      },
-      {
-        scorer: Player.ALVARO_CORNEJO,
-      },
-      {
-        scorer: Player.ALVARO_CORNEJO,
-      },
-      {
-        scorer: Player.ALVARO_CORNEJO,
-      },
-      {
-        scorer: Player.CARLOS_SANCHEZ,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.RAFA_LOPEZ,
-      },
-      {
-        scorer: Player.PEPE,
-      },
-      {
-        scorer: Player.PEPE,
-      },
-      {
-        scorer: Player.PEPE,
-      },
-      {
-        scorer: Player.PEPE,
-      },
-      {
-        scorer: Player.CARLOS_PAJARO,
-      },
-      {
-        scorer: Player.CARLOS_PAJARO,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
   {
     id: 'match7',
     matchDay: 4,
-    date: '2025-09-29',
+    date: '2025-12-01',
     time: '21:00',
-    played: true,
+    played: false,
     homeTeam: Team.GREEN,
     awayTeam: Team.WHITE,
-    homeGoals: [
-      {
-        scorer: Player.ALVARO_CORNEJO,
-      },
-      {
-        scorer: Player.CARLOS_SANCHEZ,
-      },
-      {
-        scorer: Player.LUIS_CABEZA,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.JORGE_PASTOR,
-      },
-      {
-        scorer: Player.JORGE_PASTOR,
-      },
-      {
-        scorer: Player.ALBERTO_MARCA,
-      },
-      {
-        scorer: Player.ALBERTO_MARCA,
-      },
-      {
-        scorer: Player.ALBERTO_MARCA,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
   {
     id: 'match8',
     matchDay: 4,
-    date: '2025-09-29',
+    date: '2025-12-08',
     time: '22:00',
-    played: true,
+    played: false,
     homeTeam: Team.RED,
     awayTeam: Team.BLUE,
-    homeGoals: [
-      {
-        scorer: Player.PEDRO_RODRIGUEZ,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.BORJA_CALZADILLA,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
   {
     id: 'match9',
     matchDay: 5,
-    date: '2025-10-06',
+    date: '2025-12-15',
     time: '21:00',
-    played: true,
+    played: false,
     homeTeam: Team.BLUE,
     awayTeam: Team.WHITE,
-    homeGoals: [
-      {
-        scorer: Player.PEPE,
-      },
-      {
-        scorer: Player.CARLOS_PAJARO,
-      },
-      {
-        scorer: Player.JOSE_CIA,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.PACO_ACEDO,
-      },
-      {
-        scorer: Player.JORGE_PASTOR,
-      },
-      {
-        scorer: Player.ALBERTO_MARCA,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
   {
     id: 'match10',
     matchDay: 5,
-    date: '2025-10-06',
+    date: '2025-12-22',
     time: '22:00',
-    played: true,
+    played: false,
     homeTeam: Team.RED,
     awayTeam: Team.GREEN,
-    homeGoals: [
-      {
-        scorer: Player.JOSE_LUIS_FERNANDEZ,
-      },
-      {
-        scorer: Player.JOSE_LUIS_FERNANDEZ,
-      },
-      {
-        scorer: Player.CURRO_FM,
-      },
-      {
-        scorer: Player.CURRO_FM,
-      },
-      {
-        scorer: Player.CURRO_FM,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.LUIS_CABEZA,
-      },
-      {
-        scorer: Player.LUIS_CABEZA,
-      },
-      {
-        scorer: Player.CARLOS_SANCHEZ,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
   {
     id: 'match11',
     matchDay: 6,
-    date: '2025-10-13',
+    date: '2025-12-29',
     time: '21:00',
-    played: true,
+    played: false,
     homeTeam: Team.BLUE,
     awayTeam: Team.GREEN,
-    homeGoals: [
-      {
-        scorer: Player.JOSE_CIA,
-      },
-      {
-        scorer: Player.RAFA_LOPEZ,
-      },
-      {
-        scorer: Player.CARLOS_PAJARO,
-      },
-      {
-        scorer: Player.HILARIO,
-      },
-      {
-        scorer: Player.ALFONSO_OLLERO,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.BORJA_PARIAS,
-      },
-      {
-        scorer: Player.BORJA_PARIAS,
-      },
-      {
-        scorer: Player.CASIMIRO_OLTRA,
-      },
-      {
-        scorer: Player.MIGUEL_LAGUILLO,
-      },
-      {
-        scorer: Player.CARLOS_SANCHEZ,
-      },
-      {
-        scorer: Player.MIGUEL_LAGUILLO,
-      },
-      {
-        scorer: Player.LUIS_CABEZA,
-      },
-      {
-        scorer: Player.LUIS_CABEZA,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
   {
     id: 'match12',
     matchDay: 6,
-    date: '2025-10-13',
+    date: '2026-01-05',
     time: '22:00',
-    played: true,
+    played: false,
     homeTeam: Team.WHITE,
     awayTeam: Team.RED,
-    homeGoals: [
-      {
-        scorer: Player.ISABELO,
-      },
-      {
-        scorer: Player.PACO_ACEDO,
-      },
-      {
-        scorer: Player.DANI_NAVARRO,
-      },
-      {
-        scorer: Player.ALBERTO_MARCA,
-      },
-    ],
-    awayGoals: [
-      {
-        scorer: Player.JAVI_CIA,
-      },
-    ],
+    homeGoals: [],
+    awayGoals: [],
   },
 ]
