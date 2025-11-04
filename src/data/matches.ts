@@ -73,13 +73,13 @@ export const MATCHES: Match[] = [
         scorer: Player.CARLOS_PAJARO,
       },
       {
-        scorer: Player.CARLOS_PAJARO,
+        scorer: Player.NICO_HOSTALET,
       },
       {
-        scorer: Player.CARLOS_PAJARO,
+        scorer: Player.KALI,
       },
       {
-        scorer: Player.CARLOS_PAJARO,
+        scorer: Player.PEPE,
       },
     ],
   },
