@@ -53,16 +53,16 @@ export const MATCHES: Match[] = [
         scorer: Player.ALVARO_CORNEJO,
       },
       {
-        scorer: Player.ALVARO_CORNEJO,
+        scorer: Player.DANI_NAVARRO,
       },
       {
-        scorer: Player.ALVARO_CORNEJO,
+        scorer: Player.MIGUEL_LAGUILLO,
       },
       {
-        scorer: Player.ALVARO_CORNEJO,
+        scorer: Player.BARBERA,
       },
       {
-        scorer: Player.ALVARO_CORNEJO,
+        scorer: Player.BARBERA,
       },
     ],
     awayGoals: [
