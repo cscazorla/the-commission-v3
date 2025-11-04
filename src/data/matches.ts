@@ -1,4 +1,5 @@
 import { Match } from '../types/league'
+import { Player } from '../types/players'
 import { Team } from '../types/teams'
 
 export const MATCHES: Match[] = [
@@ -7,22 +8,80 @@ export const MATCHES: Match[] = [
     matchDay: 1,
     date: '2025-11-03',
     time: '21:00',
-    played: false,
+    played: true,
     homeTeam: Team.RED,
     awayTeam: Team.BLUE,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.JOSE_LUIS_FERNANDEZ,
+      },
+      {
+        scorer: Player.BORJA_CALZADILLA,
+      },
+      {
+        scorer: Player.ISABELO,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.ALFONSO_OLLERO,
+      },
+      {
+        scorer: Player.JORGE_PASTOR,
+      },
+      {
+        scorer: Player.ALBERTO_MARCA,
+      },
+    ],
   },
   {
     id: 'match2',
     matchDay: 1,
     date: '2025-11-03',
     time: '22:00',
-    played: false,
+    played: true,
     homeTeam: Team.WHITE,
     awayTeam: Team.GREEN,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+    ],
   },
   {
     id: 'match3',
