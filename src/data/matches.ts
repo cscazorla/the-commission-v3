@@ -88,22 +88,83 @@ export const MATCHES: Match[] = [
     matchDay: 2,
     date: '2025-11-10',
     time: '21:00',
-    played: false,
+    played: true,
     homeTeam: Team.GREEN,
     awayTeam: Team.RED,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.PEPE,
+      },
+      {
+        scorer: Player.PEPE,
+      },
+      {
+        scorer: Player.CURRO_FM,
+      },
+      {
+        scorer: Player.CURRO_FM,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.PEDRO_RODRIGUEZ,
+      },
+      {
+        scorer: Player.PEDRO_RODRIGUEZ,
+      },
+    ],
   },
   {
     id: 'match4',
     matchDay: 2,
     date: '2025-11-10',
     time: '22:00',
-    played: false,
+    played: true,
     homeTeam: Team.BLUE,
     awayTeam: Team.WHITE,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.CARLOS_SANCHEZ,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.DANI_NAVARRO,
+      },
+      {
+        scorer: Player.BARBERA,
+      },
+    ],
   },
   {
     id: 'match5',
