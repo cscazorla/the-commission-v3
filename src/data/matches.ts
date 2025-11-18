@@ -171,27 +171,73 @@ export const MATCHES: Match[] = [
     matchDay: 3,
     date: '2025-11-17',
     time: '21:00',
-    played: false,
+    played: true,
     homeTeam: Team.WHITE,
     awayTeam: Team.RED,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.JOSE_LUIS_FERNANDEZ,
+      },
+      {
+        scorer: Player.ISABELO,
+      },
+      {
+        scorer: Player.ISABELO,
+      },
+    ],
   },
   {
     id: 'match6',
     matchDay: 3,
     date: '2025-11-17',
     time: '22:00',
-    played: false,
+    played: true,
     homeTeam: Team.GREEN,
     awayTeam: Team.BLUE,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.ANGEL_ROMERO,
+      },
+      {
+        scorer: Player.ANGEL_ROMERO,
+      },
+      {
+        scorer: Player.CARLOS_SANCHEZ,
+      },
+      {
+        scorer: Player.ALBERTO_MARCA,
+      },
+    ],
   },
   {
     id: 'match7',
     matchDay: 4,
-    date: '2025-11-24',
+    date: '2025-12-01',
     time: '21:00',
     played: false,
     homeTeam: Team.GREEN,
@@ -202,7 +248,7 @@ export const MATCHES: Match[] = [
   {
     id: 'match8',
     matchDay: 4,
-    date: '2025-11-24',
+    date: '2025-12-01',
     time: '22:00',
     played: false,
     homeTeam: Team.RED,
@@ -213,7 +259,7 @@ export const MATCHES: Match[] = [
   {
     id: 'match9',
     matchDay: 5,
-    date: '2025-12-01',
+    date: '2025-12-08',
     time: '21:00',
     played: false,
     homeTeam: Team.BLUE,
@@ -224,7 +270,7 @@ export const MATCHES: Match[] = [
   {
     id: 'match10',
     matchDay: 5,
-    date: '2025-12-01',
+    date: '2025-12-08',
     time: '22:00',
     played: false,
     homeTeam: Team.RED,
@@ -235,7 +281,7 @@ export const MATCHES: Match[] = [
   {
     id: 'match11',
     matchDay: 6,
-    date: '2025-12-08',
+    date: '2025-12-15',
     time: '21:00',
     played: false,
     homeTeam: Team.BLUE,
@@ -246,7 +292,7 @@ export const MATCHES: Match[] = [
   {
     id: 'match12',
     matchDay: 6,
-    date: '2025-12-08',
+    date: '2025-12-15',
     time: '22:00',
     played: false,
     homeTeam: Team.WHITE,
