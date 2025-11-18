@@ -176,7 +176,7 @@ export const MATCHES: Match[] = [
     awayTeam: Team.RED,
     homeGoals: [
       {
-        scorer: Player.ALVARO_CORNEJO,
+        scorer: Player.PACO_ACEDO,
       },
       {
         scorer: Player.ALVARO_CORNEJO,
@@ -185,13 +185,13 @@ export const MATCHES: Match[] = [
         scorer: Player.ALVARO_CORNEJO,
       },
       {
-        scorer: Player.ALVARO_CORNEJO,
+        scorer: Player.BARBERA,
       },
       {
-        scorer: Player.ALVARO_CORNEJO,
+        scorer: Player.BARBERA,
       },
       {
-        scorer: Player.ALVARO_CORNEJO,
+        scorer: Player.BARBERA,
       },
     ],
     awayGoals: [
