@@ -216,7 +216,7 @@ export const MATCHES: Match[] = [
     awayTeam: Team.BLUE,
     homeGoals: [
       {
-        scorer: Player.CARLOS_PAJARO,
+        scorer: Player.KALI,
       },
     ],
     awayGoals: [
