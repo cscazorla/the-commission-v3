@@ -379,7 +379,7 @@ export const MATCHES: Match[] = [
   {
     id: 'match11',
     matchDay: 6,
-    date: '2025-12-15',
+    date: '2026-01-26',
     time: '21:00',
     played: false,
     homeTeam: Team.BLUE,
@@ -390,7 +390,7 @@ export const MATCHES: Match[] = [
   {
     id: 'match12',
     matchDay: 6,
-    date: '2025-12-15',
+    date: '2026-01-26',
     time: '22:00',
     played: false,
     homeTeam: Team.WHITE,
