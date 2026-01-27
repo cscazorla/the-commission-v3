@@ -392,7 +392,7 @@ export const MATCHES: Match[] = [
         scorer: Player.JORGE_PASTOR,
       },
       {
-        scorer: Player.ANGEL_ALVAREZ,
+        scorer: Player.ANGEL_ROMERO,
       },
       {
         scorer: Player.ALFONSO_OLLERO,
