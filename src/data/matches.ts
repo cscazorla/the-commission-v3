@@ -381,11 +381,40 @@ export const MATCHES: Match[] = [
     matchDay: 6,
     date: '2026-01-26',
     time: '21:00',
-    played: false,
+    played: true,
     homeTeam: Team.BLUE,
     awayTeam: Team.GREEN,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.JORGE_PASTOR,
+      },
+      {
+        scorer: Player.JORGE_PASTOR,
+      },
+      {
+        scorer: Player.ANGEL_ALVAREZ,
+      },
+      {
+        scorer: Player.ALFONSO_OLLERO,
+      },
+      {
+        scorer: Player.JAVI_CIA,
+      },
+      {
+        scorer: Player.ALBERTO_MARCA,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+      {
+        scorer: Player.CARLOS_PAJARO,
+      },
+    ],
   },
   {
     id: 'match12',
