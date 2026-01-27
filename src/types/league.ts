@@ -9,6 +9,7 @@ export interface Goal {
 export interface Match {
   id: string
   matchDay: number
+  postponedFromMatchDay?: number
   date: string
   time: string
   played: boolean

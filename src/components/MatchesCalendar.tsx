@@ -17,7 +17,10 @@ export default function MatchesCalendar() {
           <Box key={date}>
             <Box mb={3}>
               <Heading fontWeight="bold" mb={1}>
-                <Text>Jornada {dateMatches[0].matchDay}</Text>
+                <Text>
+                  Jornada {dateMatches[0].matchDay}
+                  {dateMatches[0].postponedFromMatchDay && ' (Recuperación)'}
+                </Text>
               </Heading>
               <Text color="text.secondary">
                 {formatDate(dateMatches[0].date)}
