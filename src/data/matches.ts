@@ -420,12 +420,38 @@ export const MATCHES: Match[] = [
     id: 'match12',
     matchDay: 7,
     postponedFromMatchDay: 6,
-    date: '2026-02-02',
+    date: '2026-02-16',
     time: '22:00',
-    played: false,
+    played: true,
     homeTeam: Team.WHITE,
     awayTeam: Team.RED,
-    homeGoals: [],
-    awayGoals: [],
+    homeGoals: [
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.ALVARO_CORNEJO,
+      },
+      {
+        scorer: Player.BARBERA,
+      },
+      {
+        scorer: Player.BARBERA,
+      },
+      {
+        scorer: Player.RAFA_LOPEZ,
+      },
+    ],
+    awayGoals: [
+      {
+        scorer: Player.PEDRO_RODRIGUEZ,
+      },
+      {
+        scorer: Player.PEDRO_RODRIGUEZ,
+      },
+      {
+        scorer: Player.JOSE_CIA,
+      },
+    ],
   },
 ]
